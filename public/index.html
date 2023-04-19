@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CTEC Land Acquisition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="https://lh3.googleusercontent.com/-QqFZgZm3VWg/AAAAAAAAAAI/AAAAAAAAAAA/QlWGoOXKpaI/s88-p-k-no-ns-nd/photo.jpg"/>
+    <meta name="googlimagese-signin-client_id"
+          content="250704395003-bd7nt7jkg0lh9r0rkb2uocrk48lo117t.apps.googleusercontent.com">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@900&family=Unbounded:wght@900&display=swap'); </style>
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <script type="module">
+
+        // Import the functions you need from the SDKs you need
+        import {initializeApp} from "firebase/app";
+        // import {getPerformance} from "firebase/performance";
+        import {getAnalytics} from "firebase/analytics"
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCp1Wkimm_43zW33pncJcmiEwN0gyrpNjE",
+            authDomain: "ctec-a97f0.firebaseapp.com",
+            projectId: "ctec-a97f0",
+            storageBucket: "ctec-a97f0.appspot.com",
+            messagingSenderId: "880695378944",
+            appId: "1:880695378944:web:1e2e4f695e421a7a32c4e5",
+            measurementId: "G-C0JZFG5M2Z"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+    </script>
+</head>
+
+<header>
+    <img alt="CTEC Solar's Logo" class="ctec-cropped" style="scale: 35%" src="ctec-logo_nav.png">
+</header>
+
+<body>
+<div class="card card-header" style="margin-top: 8vmax">
+    <span class="material-symbols-outlined">account_circle</span>
+    <h2>Step One: Sign In with Google</h2>
+    <p>Once you've uploaded your file, the documents will arrive at your Google Drive in a continuous stream, which will
+        be terminated if this connection is closed.</p>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <div id="g_id_onload"
+         data-client_id="250704395003-bd7nt7jkg0lh9r0rkb2uocrk48lo117t.apps.googleusercontent.com"
+         data-context="signin"
+         data-ux_mode="popup"
+         data-auto_select="true"
+         data-close_on_tap_outside="false"
+         data-itp_support="true">
+    </div>
+
+    <div class="g_id_signin"
+         data-type="standard"
+         data-shape="pill"
+         data-theme="outline"
+         data-text="signin_with"
+         data-size="large"
+         data-logo_alignment="left">
+    </div>
+</div>
+
+<div class="card card-header">
+    <span class="material-symbols-outlined">cloud_circle</span>
+    <h2>Step Two: Upload A CSV File</h2>
+    <p>Use the file that you've downloaded from <a style="color: var(--ctec-blue)" href="https://andersonoptimization.com/">Anderson Optimization</a>.</p>
+    <div class="file-input">
+        <input name="file" type="file" onclick="send()" id="file" class="file" accept=".csv">
+        <label for="file"> <span class="material-symbols-outlined">upload_file</span> </label>
+        <script>
+
+            function send() {
+                const formData = new FormData();
+                const files = document.getElementById("file");
+                console.log("HMMM: ", files);
+                formData.append("file", files.files[0]);
+                console.log("OHHH: ", files.files);
+                const requestOptions = {
+                    headers: {
+                        "Content-Type": "text/csv",
+                    },
+                    mode: "no-cors",
+                    method: "POST",
+                    files: files.files[0],
+                    body: formData,
+                };
+                console.log(requestOptions);
+
+                fetch("https://192.168.86.243:5000/", requestOptions).then(
+                    (response) => {
+                        console.log("Response Data: ", response.data);
+                    }
+                );
+            }
+
+        </script>
+    </div>
+</div>
+</body>
+
+<footer>
+    <a class="link" href="https://github.com/cldrake01"><span class="material-symbols-outlined">code</span></a>
+    <a class="link" href="https://www.linkedin.com/in/collin-drake-5a6012266/"><span class="material-symbols-outlined">person</span></a>
+    <a class="link" href="mailto:collinlindendrake@gmail.com"><span class="material-symbols-outlined">mail</span></a>
+</footer>
+
+</html>

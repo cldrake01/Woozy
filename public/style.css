@@ -1,0 +1,132 @@
+:root {
+    --ctec-h-font: 'Lexend Zetta', sans-serif;
+    --ctec-h2-font: 'Unbounded', cursive;
+    --ctec-p-font: 'Cairo', sans-serif;;
+    --ctec-blue: rgb(23, 71, 176);
+    --ctec-blue-faded: rgb(84, 135, 253);
+    --ctec-yellow: rgb(251, 164, 26);
+    --ctec-neutral: rgb(59, 59, 59);
+    --ctec-shadow: rgba(4, 23, 66, 0.49);
+    --ctec-background: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--ctec-background);
+    font-family: var(--ctec-h-font);
+}
+
+header {
+    background: linear-gradient(140deg, var(--ctec-blue), var(--ctec-blue-faded));
+    font-family: var(--ctec-h2-font);
+    text-align: center;
+    color: var(--ctec-background);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+footer {
+    background: linear-gradient(140deg, var(--ctec-blue), var(--ctec-blue-faded));
+    font-family: var(--ctec-p-font);
+    text-align: center;
+    color: var(--ctec-background);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1vmax;
+    padding-top: 2vmax;
+    left: 0;
+}
+
+.ctec-cropped {
+    object-fit: contain;
+    height: 8vmax;
+}
+
+h1 {
+    padding-top: 2vmax;
+    font-family: var(--ctec-h2-font);
+    font-size: 32px;
+}
+
+.card {
+    background-color: var(--ctec-background);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: linear-gradient(140deg, var(--ctec-blue), var(--ctec-blue-faded));
+    font-family: var(--ctec-p-font);
+    /*text-shadow: 0 1px 4px var(--ctec-shadow);*/
+    padding-bottom: .5vmax;
+    font-size: 24px;
+    margin: 0;
+}
+
+.card p {
+    width: 20vmax;
+    font-family: var(--ctec-p-font);
+    text-shadow: 0 0 0 var(--ctec-shadow);
+    font-size: 12px;
+    margin: 0;
+    color: var(--ctec-neutral);
+    padding-bottom: 1vmax;
+}
+
+.card-header {
+    color: var(--ctec-blue);
+}
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+.file-input label {
+    font-family: var(--ctec-p-font);
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(140deg, var(--ctec-blue), var(--ctec-blue-faded));
+    box-shadow: 0 4px 7px var(--ctec-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ctec-background);
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+}
+
+input:hover + label,
+input:focus + label {
+    transform: scale(1.02);
+}
+
+/* Adding an outline to the label on focus */
+input:focus + label {
+    outline: 1px solid var(--ctec-blue);
+}
+
+.link {
+    color: var(--ctec-background);
+    font-family: var(--ctec-p-font);
+}
