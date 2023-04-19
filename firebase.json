@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "woozy",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -12,8 +13,5 @@
         "destination": "/index.html"
       }
     ]
-  },
-  "storage": {
-    "rules": "storage.rules"
   }
 }

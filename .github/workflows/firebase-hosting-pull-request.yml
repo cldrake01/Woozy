@@ -12,5 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CTEC_A97F0 }}'
-          projectId: ctec-a97f0
+          firebaseServiceAccount: >-
+            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CONGRESSIONAL__APP__CHALLENGE
+            }}
+          projectId: congressional--app--challenge
