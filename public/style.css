@@ -3795,7 +3795,7 @@ figcaption {
 
 .buttons {
     letter-spacing: .03em;
-    background-image: linear-gradient(#48f2f4, #04aaf4 74%);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 50px;
     margin-top: 30px;
     padding: 12px 40px;
@@ -3846,12 +3846,12 @@ figcaption {
 }
 
 .buttons.nav {
-    background-image: linear-gradient(#48f2f4, #04aaf4 74%);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     margin-top: 0
 }
 
 .buttons.nav.get-started-btn {
-    background-image: linear-gradient(#7dedf3, #4aa8ee 66%);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);;
     padding: 10px 40px;
     font-family: Eina01, sans-serif;
     font-size: 14px;
@@ -3939,7 +3939,7 @@ figcaption {
     height: 250px;
     color: #fff;
     background-color: #fff;
-    background-image: linear-gradient(#00efff, #03adf5);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -3989,7 +3989,7 @@ figcaption {
 }
 
 .trial__button {
-    background-image: linear-gradient(#3bd1e9, #07acf3);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 50px;
     padding: 17px 39px;
     font-size: 16px;
@@ -4121,7 +4121,7 @@ figcaption {
 }
 
 .read__button {
-    background-image: linear-gradient(#3bd1e9, #07acf3);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 8px;
     padding: 13px 23px;
     font-size: 16px;
@@ -4546,7 +4546,7 @@ figcaption {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-image: linear-gradient(#3bd1e9, #07acf3);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -4757,7 +4757,7 @@ figcaption {
 .test-button {
     color: #fff;
     letter-spacing: .3px;
-    background-image: linear-gradient(#7dedf3, #4aa8ee);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 100px;
     padding: 22px 77px;
     font-family: Eina01, sans-serif;
@@ -4766,7 +4766,7 @@ figcaption {
 }
 
 .test-button.get-started-btn {
-    background-image: linear-gradient(#7dedf3, #4aa8ee)
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .test-button.get-started-btn.nav {
@@ -6177,7 +6177,7 @@ figcaption {
     text-shadow: 1px 1px 4px #03adf5;
     white-space: nowrap;
     background-color: #03a9f4;
-    background-image: linear-gradient(#7dedf3, #4aa8ee);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 100px;
     padding: 20px 65px;
     font-size: 20px;
@@ -6199,14 +6199,14 @@ figcaption {
 
 .btn__primary-signup.glow {
     letter-spacing: 1px;
-    background-image: linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     margin-bottom: 20px;
     box-shadow: inset 0 -1px rgba(247, 251, 252, .8), 0 25px 30px -20px rgba(31, 215, 255, .5)
 }
 
 .btn__primary-signup.glow.featured {
     text-align: left;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 10%, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 24px, auto;
@@ -6216,23 +6216,23 @@ figcaption {
 }
 
 .btn__primary-signup.glow.featured.sleep {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 49%, 0 0;
     background-size: 26px, auto
 }
 
 .btn__primary-signup.glow.featured.stress {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 47%, 0 0;
     background-size: 27px, auto
 }
 
 .btn__primary-signup.glow.featured.focus {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.glow.featured.other {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.glow.lp, .btn__primary-signup.glow.lp-copy {
@@ -6243,13 +6243,13 @@ figcaption {
 
 .btn__primary-signup.for-popup {
     letter-spacing: 1px;
-    background-image: linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     box-shadow: inset 0 -1px rgba(247, 251, 252, .8), 0 25px 30px -20px rgba(31, 215, 255, .5)
 }
 
 .btn__primary-signup.for-popup.featured {
     text-align: left;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 10%, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 24px, auto;
@@ -6259,23 +6259,23 @@ figcaption {
 }
 
 .btn__primary-signup.for-popup.featured.sleep {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 49%, 0 0;
     background-size: 26px, auto
 }
 
 .btn__primary-signup.for-popup.featured.stress {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 47%, 0 0;
     background-size: 27px, auto
 }
 
 .btn__primary-signup.for-popup.featured.focus {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.for-popup.featured.other {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.for-popup.lp, .btn__primary-signup.for-popup.lp-copy {
@@ -6286,7 +6286,7 @@ figcaption {
 
 .btn__primary-signup.invest-btn {
     letter-spacing: 0;
-    background-image: linear-gradient(277deg, #98dfff, #41f4ff);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     margin-bottom: 0;
     padding: 1em 2.585em;
     font-size: 1.38em;
@@ -6296,7 +6296,7 @@ figcaption {
 
 .btn__primary-signup.invest-btn.featured {
     text-align: left;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 10%, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 24px, auto;
@@ -6306,23 +6306,23 @@ figcaption {
 }
 
 .btn__primary-signup.invest-btn.featured.sleep {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 49%, 0 0;
     background-size: 26px, auto
 }
 
 .btn__primary-signup.invest-btn.featured.stress {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 47%, 0 0;
     background-size: 27px, auto
 }
 
 .btn__primary-signup.invest-btn.featured.focus {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.invest-btn.featured.other {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.invest-btn.lp, .btn__primary-signup.invest-btn.lp-copy {
@@ -6337,7 +6337,7 @@ figcaption {
 
 .btn__primary-signup.invest-btn.on-hero-b {
     min-width: 16em;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/633815b3ab4d88286b04bf3d_Group%206097.png), linear-gradient(277deg, #98dfff, #41f4ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/633815b3ab4d88286b04bf3d_Group%206097.png), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 14px, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 2.3em, auto;
@@ -6382,7 +6382,7 @@ figcaption {
 
 .btn__primary-signup.solution-btn.featured {
     text-align: left;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 10%, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 24px, auto;
@@ -6392,23 +6392,23 @@ figcaption {
 }
 
 .btn__primary-signup.solution-btn.featured.sleep {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 49%, 0 0;
     background-size: 26px, auto
 }
 
 .btn__primary-signup.solution-btn.featured.stress {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 47%, 0 0;
     background-size: 27px, auto
 }
 
 .btn__primary-signup.solution-btn.featured.focus {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.solution-btn.featured.other {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.solution-btn.lp, .btn__primary-signup.solution-btn.lp-copy {
@@ -6419,7 +6419,7 @@ figcaption {
 
 .btn__primary-signup.support-btn {
     letter-spacing: 0;
-    background-image: linear-gradient(277deg, #98dfff, #41f4ff);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     margin-bottom: 0;
     margin-left: 1em;
     padding: .875em 1.208em;
@@ -6430,7 +6430,7 @@ figcaption {
 
 .btn__primary-signup.support-btn.featured {
     text-align: left;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 10%, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 24px, auto;
@@ -6440,23 +6440,23 @@ figcaption {
 }
 
 .btn__primary-signup.support-btn.featured.sleep {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 49%, 0 0;
     background-size: 26px, auto
 }
 
 .btn__primary-signup.support-btn.featured.stress {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 47%, 0 0;
     background-size: 27px, auto
 }
 
 .btn__primary-signup.support-btn.featured.focus {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.support-btn.featured.other {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.support-btn.lp, .btn__primary-signup.support-btn.lp-copy {
@@ -6472,7 +6472,7 @@ figcaption {
 .btn__primary-signup.share-btn {
     letter-spacing: 0;
     text-shadow: 1px 1px 4px #03adf5;
-    background-image: linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     margin-bottom: 0;
     padding: .666em .888em;
     font-size: 1.25em;
@@ -6483,7 +6483,7 @@ figcaption {
 
 .btn__primary-signup.share-btn.featured {
     text-align: left;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 10%, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 24px, auto;
@@ -6493,23 +6493,23 @@ figcaption {
 }
 
 .btn__primary-signup.share-btn.featured.sleep {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd4ca669f61e42190d_Sleep.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 49%, 0 0;
     background-size: 26px, auto
 }
 
 .btn__primary-signup.share-btn.featured.stress {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd1260bca6bf901540_Spirituality.svg), linear-gradient(#15e4b3, #26af89 74%);
     background-position: 9% 47%, 0 0;
     background-size: 27px, auto
 }
 
 .btn__primary-signup.share-btn.featured.focus {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fdab5ccdc43f1a7dd1_Meditation.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.share-btn.featured.other {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/607eb6fd7c010a3373c7d2c5_Sounds.svg), linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .btn__primary-signup.share-btn.lp, .btn__primary-signup.share-btn.lp-copy {
@@ -7594,7 +7594,7 @@ figcaption {
 
 .btn__navbar.glow {
     letter-spacing: 0;
-    background-image: linear-gradient(73deg, #1df4ed, #4ec8ff);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border: 1px solid #f7fbfc;
     font-weight: 500;
     box-shadow: 0 25px 30px -20px rgba(31, 215, 255, .5)
@@ -9201,7 +9201,7 @@ figcaption {
 }
 
 .glow, .glow.height-100 {
-    background-image: linear-gradient(73deg, #1df4ed, #4ec8ff)
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
 }
 
 .search-2 {
@@ -11191,7 +11191,7 @@ figcaption {
 .watch-story-btn {
     width: auto;
     text-align: center;
-    background-image: linear-gradient(277deg, #98dfff, #41f4ff);
+    background-image: linear-gradient(#15e4b3, #26af89 74%);
     border-radius: 999px;
     align-items: center;
     padding: 1.2em 2.585em;
