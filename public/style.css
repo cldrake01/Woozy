@@ -6871,7 +6871,7 @@ figcaption {
 }
 
 .item__card-coaches.dorothy-ratusny {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/6090378fd290815919f62b52_DorothyRatusny.jpg);
+    background-image: url("into-to-nn-infograph2.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
@@ -7613,7 +7613,7 @@ figcaption {
     width: 276px;
     height: 161px;
     color: #fff;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/609d280ad1880809cbab5504_app-aura-3-1.jpg);
+    background-image: url("Blog-images_21_5_2020-01-630x420.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7629,7 +7629,7 @@ figcaption {
     width: 249px;
     height: 134px;
     color: #fff;
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/609d2a65f9c53105d5c4a8a4_app-aura-3-2.jpg);
+    background-image: url("feed-foward-nn-infograph1-300x226.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8670,7 +8670,7 @@ figcaption {
 }
 
 .slider-card-coaches.dorothy-ratusny {
-    background-image: url(https://uploads-ssl.webflow.com/5e261bc81db8f10d29648998/6090378fd290815919f62b52_DorothyRatusny.jpg);
+    background-image: url("into-to-nn-infograph2.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
@@ -12878,7 +12878,7 @@ html.w-mod-js [data-ix=in-2-ud-delayed] {
     }
 
     .app4-experience {
-        max-width: 240px
+        max-width: 240px;
     }
 
     .scroll__press {
